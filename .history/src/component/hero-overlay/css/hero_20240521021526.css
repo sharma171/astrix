@@ -217,7 +217,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 260px;
+        width: 340px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(11) {
         animation-name: sshero-four;
@@ -225,7 +225,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 240px;
+        width: 300px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(13) {
         animation-name: sshero-fifth;
@@ -241,7 +241,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 150px;
+        width: 255px;
     }
 }
 @media (max-width: 1000px) {
@@ -251,7 +251,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 200px;
+        width: 450px;
     }
     .floating-hero .hero-anim .hero-text {
         font-size: 45px;
@@ -262,7 +262,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 340px;
+        width: 620px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(6) {
         animation-name: tshero-third;
@@ -270,7 +270,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 160px;
+        width: 340px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(11) {
         animation-name: tshero-four;
@@ -278,7 +278,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 240px;
+        width: 300px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(13) {
         animation-name: tshero-fifth;
@@ -286,7 +286,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 160px;
+        width: 190px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(14) {
         animation-name: tshero-sixth;
@@ -294,7 +294,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 150px;
+        width: 255px;
     }
     .floating-hero .hero-anim .hero-image {
         max-height: 55px;
@@ -525,7 +525,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 100px;
+        width: 450px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(5) {
         animation-name: stshero-second;
@@ -533,7 +533,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 190px;
+        width: 620px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(6) {
         animation-name: stshero-third;
@@ -541,7 +541,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 100px;
+        width: 340px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(11) {
         animation-name: stshero-four;
@@ -549,7 +549,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 160px;
+        width: 300px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(13) {
         animation-name: stshero-fifth;
@@ -557,7 +557,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 100px;
+        width: 190px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(14) {
         animation-name: stshero-sixth;
@@ -565,7 +565,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 130px;
+        width: 255px;
     }
 }
 @keyframes stshero-first {
@@ -695,7 +695,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 50px;
+        width: 450px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(5) {
         animation-name: mstshero-second;
@@ -703,7 +703,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 130px;
+        width: 620px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(6) {
         animation-name: mstshero-third;
@@ -711,7 +711,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 130px;
+        width: 340px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(11) {
         animation-name: mstshero-four;
@@ -719,7 +719,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 120px;
+        width: 300px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(13) {
         animation-name: mstshero-fifth;
@@ -727,7 +727,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 80px;
+        width: 190px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(14) {
         animation-name: mstshero-sixth;
@@ -735,7 +735,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: non;
-        width: 60px;
+        width: 255px;
     }
 }
 @keyframes mstshero-first {

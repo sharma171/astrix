@@ -719,7 +719,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 120px;
+        width: 300px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(13) {
         animation-name: mstshero-fifth;
@@ -727,7 +727,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: none;
-        width: 80px;
+        width: 190px;
     }
     .floating-hero .hero-anim .hero-image:nth-child(14) {
         animation-name: mstshero-sixth;
@@ -735,7 +735,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-delay: non;
-        width: 60px;
+        width: 255px;
     }
 }
 @keyframes mstshero-first {
