@@ -31,9 +31,6 @@
 .homesection .tick-col {
     display: none;
 }
-.homesection.active .tick-col {
-    display: flex;
-}
 .homesection .tick-col {
     width: 90px;
     background: #d4b1ff;
@@ -402,7 +399,6 @@
     position: sticky;
     top: 0;
     overflow: hidden;
-    z-index: 100;
 }
 .homesection .tick-col .ticker-box {
     height: fit-content;
