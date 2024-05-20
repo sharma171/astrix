@@ -1,0 +1,23 @@
+//Carousel columns
+.homesection .car-row-col{
+    width: 65%;
+}
+.homesection .car-row-row {
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.homesection .car-col {
+    width: calc(100% - 90px);
+}
+.homesection .tick-col {
+    width: 90px;
+    background: #b9a0fe;
+}
+.homesection .car-col .homebrand {
+    margin-top: 30px;
+}
+
+//Event columns
+.homesection .evnt-col{
+    width: 35%;
+}

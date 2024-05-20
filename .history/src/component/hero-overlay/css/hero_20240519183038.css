@@ -1,0 +1,102 @@
+.floating-hero {
+    background: #f8f1df;
+    min-height: 100vh;
+    transition: all 2s;
+}
+.floating-hero .navmenu{
+    padding-top: 90px;
+}
+
+.floating-hero .hero-anim {
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 10px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.floating-hero .hero-anim .hero-image {
+    max-height: 72px;
+    object-fit: cover;
+}
+.floating-hero .hero-anim .hero-text {
+    font-family: "Urbanist", sans-serif;
+    font-size: 70px;
+    letter-spacing: 6px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #000;
+}
+.floating-hero .hero-anim .hero-image:nth-child(2) {
+    animation-name: hero-first;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    width: 450px;
+}
+.floating-hero .hero-anim .hero-image:nth-child(5) {
+    animation-name: hero-second;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    width: 620px;
+}
+.floating-hero .hero-anim .hero-image:nth-child(6) {
+    animation-name: hero-third;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    width: 340px;
+}
+@keyframes hero-first {
+    0% {
+        width: 450px;
+    }
+    25% {
+        width: 330px;
+    }
+    50% {
+        width: 330px;
+    }
+    75% {
+        width: 450px;
+    }
+    100% {
+        width: 450px;
+    }
+}
+@keyframes hero-second {
+    0% {
+        width: 620px;
+    }
+    25% {
+        width: 470px;
+    }
+    50% {
+        width: 470px;
+    }
+    75% {
+        width: 620px;
+    }
+    100% {
+        width: 620px;
+    }
+}
+@keyframes hero-third {
+    0% {
+        width: 340px;
+    }
+    25% {
+        width: 410px;
+    }
+    50% {
+        width: 410px;
+    }
+    75% {
+        width: 340px;
+    }
+    100% {
+        width: 340px;
+    }
+}

@@ -1,0 +1,11 @@
+.ov-header .navmenu .brand-logo {
+    width: 55px;
+    height: auto;
+}
+.ov-header .brand-name {
+    font-family: "futurabold";
+    color: black;
+    font-size: 40px;
+    line-height: 1;
+    margin-left: 20px;
+}

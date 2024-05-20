@@ -1,0 +1,8 @@
+.floating-hero {
+    background: #f8f1df;
+    min-height: 100vh;
+}
+.floating-hero .navmenu{
+    padding-top: 90px;
+}
+

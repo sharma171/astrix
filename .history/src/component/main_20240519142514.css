@@ -1,0 +1,47 @@
+@fontface {
+    font-family: "futura light";
+    src: local("FUTURA45LIGHT"),
+    url("../fonts/FUTURA45LIGHT.TTF");
+}
+@fontface {
+    font-family: "futura regular";
+    src: local("FUTURA55REGULAR"),
+    url("../fonts/FUTURA55REGULAR.TTF");
+}
+@fontface {
+    font-family: "futura medium";
+    src: local("FUTURA65MEDIUM"),
+    url("../fonts/FUTURA65MEDIUM.TTF");
+}
+@fontface {
+    font-family: "futura bold";
+    src: local("FUTURA55REGULAR"),
+    url("../fonts/FUTURA76BOLDITALIC.TTF");
+}
+@font-face {
+    font-family: "GoldmanBold";
+    src: local("GoldmanBold"),
+     url("../fonts/FUTURA75BOLD.TTF") format("truetype");
+    font-weight: bold;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "GoldmanBold";
+}
+* a{
+    text-decoration: none;
+}
+* .row-flex {
+    display: flex;
+    flex-direction: row;
+}
+* .col-flex {
+    display: flex;
+    flex-direction: column;
+}
+* .container {
+    width: 1200px;
+    margin: 0 auto;
+}

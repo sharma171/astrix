@@ -1,0 +1,842 @@
+.floating-hero {
+    background: #f8f1df;
+    min-height: 100vh;
+    transition: all 2s;
+    cursor: pointer;
+    display: block;
+    position: static;
+    width: 100%;
+    transition: all 3s ease-in-out;
+    top: 0;
+    z-index: 100;
+}
+.floating-hero.active {
+    display: block;
+    position: fixed;
+    top: -500%;
+    left: 0;
+}
+.floating-hero .navmenu{
+    padding-top: 90px;
+}
+
+.floating-hero .hero-anim {
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 10px;
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.floating-hero .hero-anim .hero-image {
+    max-height: 72px;
+    object-fit: cover;
+}
+.floating-hero .hero-anim .hero-text {
+    font-family: "Urbanist", sans-serif;
+    font-size: 70px;
+    letter-spacing: 6px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #000;
+}
+.floating-hero .hero-anim .hero-image:nth-child(2) {
+    animation-name: hero-first;
+    animation-duration: 9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    width: 450px;
+}
+.floating-hero .hero-anim .hero-image:nth-child(5) {
+    animation-name: hero-second;
+    animation-duration: 9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    width: 620px;
+}
+.floating-hero .hero-anim .hero-image:nth-child(6) {
+    animation-name: hero-third;
+    animation-duration: 9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    width: 340px;
+}
+.floating-hero .hero-anim .hero-image:nth-child(11) {
+    animation-name: hero-four;
+    animation-duration: 9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    width: 300px;
+}
+.floating-hero .hero-anim .hero-image:nth-child(13) {
+    animation-name: hero-fifth;
+    animation-duration: 9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    width: 190px;
+}
+.floating-hero .hero-anim .hero-image:nth-child(14) {
+    animation-name: hero-sixth;
+    animation-duration: 9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    width: 255px;
+}
+@keyframes hero-first {
+    0% {
+        width: 450px;
+    }
+    25% {
+        width: 330px;
+    }
+    50% {
+        width: 330px;
+    }
+    75% {
+        width: 450px;
+    }
+    100% {
+        width: 450px;
+    }
+}
+@keyframes hero-second {
+    0% {
+        width: 620px;
+    }
+    25% {
+        width: 470px;
+    }
+    50% {
+        width: 470px;
+    }
+    75% {
+        width: 620px;
+    }
+    100% {
+        width: 620px;
+    }
+}
+@keyframes hero-third {
+    0% {
+        width: 340px;
+    }
+    25% {
+        width: 410px;
+    }
+    50% {
+        width: 410px;
+    }
+    75% {
+        width: 340px;
+    }
+    100% {
+        width: 340px;
+    }
+}
+@keyframes hero-four {
+    0% {
+        width: 300px;
+    }
+    25% {
+        width: 200px;
+    }
+    50% {
+        width: 200px;
+    }
+    75% {
+        width: 300px;
+    }
+    100% {
+        width: 300px;
+    }
+}
+@keyframes hero-fifth {
+    0% {
+        width: 190px;
+    }
+    25% {
+        width: 345px;
+    }
+    50% {
+        width: 345px;
+    }
+    75% {
+        width: 190px;
+    }
+    100% {
+        width: 190px;
+    }
+}
+@keyframes hero-sixth {
+    0% {
+        width: 255px;
+    }
+    25% {
+        width: 315px;
+    }
+    50% {
+        width: 315px;
+    }
+    75% {
+        width: 255px;
+    }
+    100% {
+        width: 255px;
+    }
+}
+@media (max-width: 1280px) {
+    .floating-hero .hero-anim .hero-image:nth-child(2) {
+        animation-name: sshero-first;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 450px;
+    }
+    .floating-hero .hero-anim .hero-text {
+        font-size: 55px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(5) {
+        animation-name: sshero-second;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 620px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(6) {
+        animation-name: sshero-third;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 340px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(11) {
+        animation-name: sshero-four;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 300px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(13) {
+        animation-name: sshero-fifth;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 190px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(14) {
+        animation-name: sshero-sixth;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 255px;
+    }
+}
+@media (max-width: 1000px) {
+    .floating-hero .hero-anim .hero-image:nth-child(2) {
+        animation-name: tshero-first;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 450px;
+    }
+    .floating-hero .hero-anim .hero-text {
+        font-size: 45px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(5) {
+        animation-name: tshero-second;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 620px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(6) {
+        animation-name: tshero-third;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 340px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(11) {
+        animation-name: tshero-four;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 300px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(13) {
+        animation-name: tshero-fifth;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 190px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(14) {
+        animation-name: tshero-sixth;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 255px;
+    }
+    .floating-hero .hero-anim .hero-image {
+        max-height: 55px;
+        height: 50px;
+    }
+    .floating-hero .hero-anim .hero-text {
+        font-size: 50px;
+    }
+}
+@keyframes sshero-first {
+    0% {
+        width: 400px;
+    }
+    25% {
+        width: 250px;
+    }
+    50% {
+        width: 250px;
+    }
+    75% {
+        width: 400px;
+    }
+    100% {
+        width: 400px;
+    }
+}
+@keyframes sshero-second {
+    0% {
+        width: 540px;
+    }
+    25% {
+        width: 340px;
+    }
+    50% {
+        width: 340px;
+    }
+    75% {
+        width: 540px;
+    }
+    100% {
+        width: 540px;
+    }
+}
+@keyframes sshero-third {
+    0% {
+        width: 260px;
+    }
+    25% {
+        width: 300px;
+    }
+    50% {
+        width: 300px;
+    }
+    75% {
+        width: 260px;
+    }
+    100% {
+        width: 260px;
+    }
+}
+@keyframes sshero-four {
+    0% {
+        width: 240px;
+    }
+    25% {
+        width: 170px;
+    }
+    50% {
+        width: 170px;
+    }
+    75% {
+        width: 240px;
+    }
+    100% {
+        width: 240px;
+    }
+}
+@keyframes sshero-fifth {
+    0% {
+        width: 160px;
+    }
+    25% {
+        width: 215px;
+    }
+    50% {
+        width: 215px;
+    }
+    75% {
+        width: 160px;
+    }
+    100% {
+        width: 160px;
+    }
+}
+@keyframes sshero-sixth {
+    0% {
+        width: 150px;
+    }
+    25% {
+        width: 225px;
+    }
+    50% {
+        width: 225px;
+    }
+    75% {
+        width: 150px;
+    }
+    100% {
+        width: 150px;
+    }
+}
+@keyframes tshero-first {
+    0% {
+        width: 200px;
+    }
+    25% {
+        width: 50px;
+    }
+    50% {
+        width: 50px;
+    }
+    75% {
+        width: 200px;
+    }
+    100% {
+        width: 200px;
+    }
+}
+@keyframes tshero-second {
+    0% {
+        width: 340px;
+    }
+    25% {
+        width: 140px;
+    }
+    50% {
+        width: 140px;
+    }
+    75% {
+        width: 340px;
+    }
+    100% {
+        width: 340px;
+    }
+}
+@keyframes tshero-third {
+    0% {
+        width: 160px;
+    }
+    25% {
+        width: 200px;
+    }
+    50% {
+        width: 200px;
+    }
+    75% {
+        width: 160px;
+    }
+    100% {
+        width: 160px;
+    }
+}
+@keyframes tshero-four {
+    0% {
+        width: 240px;
+    }
+    25% {
+        width: 170px;
+    }
+    50% {
+        width: 170px;
+    }
+    75% {
+        width: 240px;
+    }
+    100% {
+        width: 240px;
+    }
+}
+@keyframes tshero-fifth {
+    0% {
+        width: 160px;
+    }
+    25% {
+        width: 215px;
+    }
+    50% {
+        width: 215px;
+    }
+    75% {
+        width: 160px;
+    }
+    100% {
+        width: 160px;
+    }
+}
+@keyframes tshero-sixth {
+    0% {
+        width: 150px;
+    }
+    25% {
+        width: 225px;
+    }
+    50% {
+        width: 225px;
+    }
+    75% {
+        width: 150px;
+    }
+    100% {
+        width: 150px;
+    }
+}
+@media (max-width: 820px) {
+    .floating-hero .hero-anim .hero-text {
+        font-size: 32px;
+    }
+    .floating-hero .hero-anim .hero-image {
+        max-height: 32px;
+        height: 32px;
+    }
+    .floating-hero .hero-anim {
+        row-gap: 20px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(2) {
+        animation-name: stshero-first;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 450px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(5) {
+        animation-name: stshero-second;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 620px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(6) {
+        animation-name: stshero-third;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 340px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(11) {
+        animation-name: stshero-four;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 300px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(13) {
+        animation-name: stshero-fifth;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 190px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(14) {
+        animation-name: stshero-sixth;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 255px;
+    }
+}
+@keyframes stshero-first {
+    0% {
+        width: 100px;
+    }
+    25% {
+        width: 50px;
+    }
+    50% {
+        width: 50px;
+    }
+    75% {
+        width: 100px;
+    }
+    100% {
+        width: 100px;
+    }
+}
+@keyframes stshero-second {
+    0% {
+        width: 190px;
+    }
+    25% {
+        width: 150px;
+    }
+    50% {
+        width: 150px;
+    }
+    75% {
+        width: 190px;
+    }
+    100% {
+        width: 190px;
+    }
+}
+@keyframes stshero-third {
+    0% {
+        width: 100px;
+    }
+    25% {
+        width: 80px;
+    }
+    50% {
+        width: 80px;
+    }
+    75% {
+        width: 100px;
+    }
+    100% {
+        width: 100px;
+    }
+}
+@keyframes stshero-four {
+    0% {
+        width: 160px;
+    }
+    25% {
+        width: 120px;
+    }
+    50% {
+        width: 120px;
+    }
+    75% {
+        width: 160px;
+    }
+    100% {
+        width: 160px;
+    }
+}
+@keyframes stshero-fifth {
+    0% {
+        width: 100px;
+    }
+    25% {
+        width: 145px;
+    }
+    50% {
+        width: 145px;
+    }
+    75% {
+        width: 100px;
+    }
+    100% {
+        width: 100px;
+    }
+}
+@keyframes stshero-sixth {
+    0% {
+        width: 130px;
+    }
+    25% {
+        width: 150px;
+    }
+    50% {
+        width: 150px;
+    }
+    75% {
+        width: 130px;
+    }
+    100% {
+        width: 130px;
+    }
+}
+@media (max-width: 520px) {
+    .floating-hero .navmenu {
+        padding-top: 34px;
+    }
+    .ov-header .navmenu .brand-logo {
+        width: 36px;
+        height: fit-content;
+    }
+    .ov-header .brand-name {
+        font-size: 34px;
+        margin-left: 12px;
+    }
+    .floating-hero .hero-anim .hero-text {
+        font-size: 23px;
+    }
+    .floating-hero .hero-anim .hero-image {
+        max-height: 24px;
+        height: 24px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(2) {
+        animation-name: mstshero-first;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 450px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(5) {
+        animation-name: mstshero-second;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 620px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(6) {
+        animation-name: mstshero-third;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 340px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(11) {
+        animation-name: mstshero-four;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 300px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(13) {
+        animation-name: mstshero-fifth;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: none;
+        width: 190px;
+    }
+    .floating-hero .hero-anim .hero-image:nth-child(14) {
+        animation-name: mstshero-sixth;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: non;
+        width: 255px;
+    }
+}
+@keyframes mstshero-first {
+    0% {
+        width: 50px;
+    }
+    25% {
+        width: 30px;
+    }
+    50% {
+        width: 30px;
+    }
+    75% {
+        width: 50px;
+    }
+    100% {
+        width: 50px;
+    }
+}
+@keyframes mstshero-second {
+    0% {
+        width: 130px;
+    }
+    25% {
+        width: 70px;
+    }
+    50% {
+        width: 70px;
+    }
+    75% {
+        width: 130px;
+    }
+    100% {
+        width: 130px;
+    }
+}
+@keyframes mstshero-third {
+    0% {
+        width: 130px;
+    }
+    25% {
+        width: 80px;
+    }
+    50% {
+        width: 80px;
+    }
+    75% {
+        width: 130px;
+    }
+    100% {
+        width: 130px;
+    }
+}
+@keyframes mstshero-four {
+    0% {
+        width: 120px;
+    }
+    25% {
+        width: 80px;
+    }
+    50% {
+        width: 80px;
+    }
+    75% {
+        width: 120px;
+    }
+    100% {
+        width: 120px;
+    }
+}
+@keyframes mstshero-fifth {
+    0% {
+        width: 80px;
+    }
+    25% {
+        width: 120px;
+    }
+    50% {
+        width: 120px;
+    }
+    75% {
+        width: 80px;
+    }
+    100% {
+        width: 80px;
+    }
+}
+@keyframes mstshero-sixth {
+    0% {
+        width: 60px;
+    }
+    25% {
+        width: 80px;
+    }
+    50% {
+        width: 80px;
+    }
+    75% {
+        width: 60px;
+    }
+    100% {
+        width: 50px;
+    }
+}

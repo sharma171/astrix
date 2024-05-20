@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+/* Carousel columns */
+
+
+.homesection .car-row-col {
+    width: 65%;
+}
+.homesection .car-row-row {
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.homesection .car-col {
+    width: calc(100% - 90px);
+}
+.homesection .tick-col {
+    width: 90px;
+    background: #b9a0fe;
+}
+.homesection .car-col .homebrand {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.homesection .car-col .homebrand img{
+    width: 240px;
+}
+
+.homesection .car-col .carousel-inner {
+    position: relative;
+}
+.homesection .car-col .carousel-inner .bgtext {
+    font-family: "Roboto Slab", serif;
+    font-size: 100px;
+    line-height: 1;
+    position: relative;
+}
+
+.homesection .car-col .carousel-inner .bgtext .one {
+    position: absolute;
+}
+
+
+/* //Event columns */
+.homesection .evnt-col{
+    width: 35%;
+}

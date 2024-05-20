@@ -1,0 +1,12 @@
+.ov-header .navmenu .brand-logo {
+    width: 50px;
+    height: auto;
+}
+.ov-header .brand-name {
+    font-family: "sebino";
+    color: black;
+    font-size: 43px;
+    line-height: 0.8;
+    align-self: center;
+    margin-left: 20px;
+}

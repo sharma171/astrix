@@ -1,0 +1,22 @@
+.floating-hero {
+    background: #f8f1df;
+    min-height: 100vh;
+    transition: all 1s;
+}
+.floating-hero .navmenu{
+    padding-top: 90px;
+}
+
+.floating-hero .hero-anim {
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 20px;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+.floating-hero .hero-anim .hero-text {
+    font-family: "sebino";
+    font-size: 60px;
+    color: #000;
+}

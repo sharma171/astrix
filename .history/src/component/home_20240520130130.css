@@ -1,0 +1,15 @@
+.homesection .car-row-col{
+    width: 65%;
+}
+.homesection .car-row-row {
+    flex-wrap: nowrap;
+}
+.homesection .car-col {
+    width: calc(100% - 90px);
+}
+.homesection .tick-col {
+    width: 90px;
+}
+.homesection .evnt-col{
+    width: 35%;
+}
